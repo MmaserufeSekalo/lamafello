@@ -30,6 +30,8 @@ img {
   top: -20px;
 }
 small {
+  display: inline;
+  text-align: center;
   font-family: monospace;
 }
 .temp {
