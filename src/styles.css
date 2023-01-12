@@ -29,11 +29,7 @@ img {
   width: 80px;
   top: -20px;
 }
-small {
-  display: inline;
-  text-align: center;
-  font-family: monospace;
-}
+
 .temp {
   font-size: 70px;
 }
@@ -52,10 +48,22 @@ cursor: default;
   color: rgb(135, 135, 135);
   text-decoration: none;
  
+
 }
-.open-source {
+.repo-link{
+  text-align: center;
+  color: rgb(76, 76, 233);
+  text-align: center;
   text-decoration: underline;
-  color: rgb(88, 88, 236);
+  position: relative;
+}
+small{
+  text-decoration: none;
+  color: rgb(0, 0, 6);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  
 }
 
 .description::first-letter {
