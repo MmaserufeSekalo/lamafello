@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.app {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+}
+h1 {
+  color: rgb(135, 135, 135);
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+}
+li {
+  list-style: none;
+  color: #878787;
+  font-weight: 100;
+  font-size: 16px;
+  padding: 0 auto;
+  margin: 0 auto;
+  position: relative;
+  left: -32px;
+}
+img {
+  position: relative;
+  width: 80px;
+  top: -20px;
+}
+small {
+  font-family: monospace;
+}
+.temp {
+  font-size: 70px;
+}
+.units {
+  font-size: 16px;
+  position: relative;
+  top: -40px;
+  right: -20px;
+  margin-left: -10px;
+  color: rgb(135, 135, 135) ;
+  cursor: default;
+}
+
+a {
+cursor: default;
+  color: rgb(135, 135, 135);
+  text-decoration: none;
+ 
+}
+.open-source {
+  text-decoration: underline;
+  color: rgb(88, 88, 236);
+}
+
+.description::first-letter {
+  text-transform: capitalize;
+}
